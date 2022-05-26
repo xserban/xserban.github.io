@@ -1,0 +1,742 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"
+    integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+
+  <title>A. Serban - Public Papers</title>
+
+  <style>
+    .no-margin {
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <meta name="description" content="Presentations and publications of Alexandru Constantin Serban">
+  <meta name="relatedLink" content="xserban.github.io/talks">
+
+  <div class="container-fluid">
+    Back to
+    <a href="https://xserban.github.io">Homepage</a>
+    <br>
+    <br>
+    Also see my <a href="https://scholar.google.com/citations?user=b0DHW3wAAAAJ&hl=nl&oi=ao" , target="_blank"> Google
+      Scholar profile</a>.
+    <!-- <br> -->
+    <br>
+    <!-- <h4>
+      Publications:
+    </h4> -->
+
+    <br>
+
+    <h5 id="robust">
+      Robust Computer Vision and Planning:
+    </h5>
+    <!-- Repulsive Prototypes -->
+    <div class="row" itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <div class="col-sm-8">
+
+        <a target="_blank" href="https://arxiv.org/abs/2105.12427" itemprop="url">
+          <span itemprop="name">
+            Deep Repulsive Prototypes for Adversarial Robustness
+          </span>
+        </a>
+
+        <meta itemprop="sameAs" content="https://arxiv.org/abs/2105.12427">
+        <p class="no-margin">
+          <span itemprop="author">
+            A. Serban, E. Poll, J. Visser
+          </span>
+        </p>
+        <meta itemprop="headline" content="
+        While many defences against adversarial examples have been proposed, finding robust machine learning models is still an open problem.
+        The most compelling defence to date is adversarial training and consists of complementing the training data set with adversarial examples.
+        Yet adversarial training severely impacts training time and depends on finding representative adversarial samples.
+        In this paper we propose to train models on output spaces with large class separation in order to gain robustness without adversarial training.
+        We introduce a method to partition the output space into class prototypes with large separation and train models to preserve it.
+        Experimental results shows that models trained with these prototypes -- which we call deep repulsive prototypes -- gain robustness competitive with adversarial training, while also preserving more accuracy on natural samples.
+        Moreover, the models are more resilient to large perturbation sizes. For example, we obtained over 50% robustness for CIFAR-10, with 92% accuracy on natural samples and over 20% robustness for CIFAR-100, with 71% accuracy on natural samples without adversarial training. For both data sets, the models preserved robustness against large perturbations better than adversarially trained models.
+                    ">
+
+        <p class="no-margin">
+          <meta itemprop="datePublished" content="2020-08-15">
+          arXiv:2105.12427
+        </p>
+        <br>
+      </div>
+    </div>
+
+    <!-- Adversarial CSUR -->
+    <div class="row" itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <div class="col-sm-8">
+        <a target="_blank" href="pdf/ASerban_Adversarial_Examples_CSUR.pdf" itemprop="url">
+          <span itemprop="name">
+            Adversarial Examples on Object Recognition: A Comprehensive Survey
+          </span>
+        </a>
+        <meta itemprop="sameAs" content="xserban.github.io/papers/pdf/ASerban_Adversarial_Examples_CSUR.pdf">
+        <p class="no-margin">
+          <span itemprop="author">
+            A. Serban, E. Poll, J. Visser
+          </span>
+        </p>
+        <meta itemprop="headline" content="
+                  Deep neural networks are at the forefront of machine learning research.
+                  However, despite achieving impres- sive performance on complex tasks, they can be very sensitive:
+                  Small perturbations of inputs can be sufficient to induce incorrect behavior.
+                  Such perturbations, called adversarial examples, are intentionally designed to test the network’s sensitivity to distribution drifts.
+                  Given their surprisingly small size, a wide body of liter- ature conjectures on their existence and how this phenomenon can be mitigated.
+                  In this article, we discuss the impact of adversarial examples on security, safety, and robustness of neural networks.
+                  We start by introducing the hypotheses behind their existence, the methods used to construct or protect against them, and the capacity to transfer adversarial examples between different machine learning models.
+                  Altogether, the goal is to provide a comprehensive and self-contained survey of this growing field of research.
+                  ">
+
+        <p class="no-margin">
+          <meta itemprop="datePublished" content="2020-05-01">
+          2020 ACM Computing Surveys (CSUR)
+        </p>
+        <br>
+      </div>
+    </div>
+
+    <!-- L2L -->
+    <div class="row" itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <div class="col-sm-8">
+        <a target="_blank" href="pdf/ASerban_L2L.pdf" itemprop="url">
+          <span itemprop="name">
+            Learning to Learn from Mistakes: Robust Optimization for Adversarial Noise
+          </span>
+        </a>
+        <meta itemprop="sameAs" content="xserban.github.io/papers/pdf/ASerban_L2L.pdf">
+        <p class="no-margin">
+          <span itemprop="author">
+            A. Serban, E. Poll, J. Visser
+          </span>
+        </p>
+        <meta itemprop="headline" content="
+                  Sensitivity to adversarial noise hinders deployment of machine learning algorithms in security-critical applications.
+                  Although many adversarial defenses have been proposed, robustness to adversarial noise remains an open problem.
+                  The most compelling defense, adversarial training, requires a substantial increase in processing time and it has been shown to overfit on the training data.
+                   In this paper, we aim to overcome these limitations by training robust models in low data regimes and transfer adversarial knowledge between different models.
+                   We train a meta-optimizer which learns to robustly optimize a model using adversarial examples and is able to transfer the knowledge learned to new models, without the need to generate new adversarial examples.
+                   Experimental results show the meta-optimizer is consistent across different architectures and data sets, suggesting it is possible to automatically patch adversarial vulnerabilities.
+                  ">
+
+        <p class="no-margin">
+          <meta itemprop="datePublished" content="2020-05-01">
+          2020 International Conference on Artificial Neural Networks (ICANN)
+        </p>
+        <br>
+      </div>
+    </div>
+
+    <!-- SAFE RL -->
+    <div class="row" itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <div class="col-sm-8">
+        <a target="_blank" href="pdf/ASerban_Shield.pdf" itemprop="url">
+          <span itemprop="name">
+            Safe Reinforcement Learning via Probabilistic Shields
+          </span>
+        </a>
+        <meta itemprop="sameAs" content="xserban.github.io/papers/pdf/ASerban_Adversarial_Examples_CSUR.pdf">
+        <p class="no-margin">
+          <span itemprop="author">
+            N. Jansen, B. Könighofer, S. Junges, A. Serban, R. Bloem
+          </span>
+        </p>
+        <meta itemprop="headline" content="
+                  his paper targets the efficient construction of a safety shield for decision making in scenarios that incorporate uncertainty.
+                  Markov decision processes (MDPs) are prominent models to capture such planning problems.
+                  Reinforcement learning (RL) is a machine learning technique to determine near-optimal policies in MDPs that may be unknown prior to exploring the model.
+                  However, during exploration, RL is prone to induce behavior that is undesirable or not allowed in safety- or mission-critical contexts.
+                  We introduce the concept of a probabilistic shield that enables decision-making to adhere to safety constraints with high probability.
+                  In a separation of concerns, we employ formal verification to efficiently compute the probabilities of critical decisions within a safety-relevant fragment of the MDP.
+                  We use these results to realize a shield that is applied to an RL algorithm which then optimizes the actual performance objective.
+                  We discuss tradeoffs between sufficient progress in exploration of the environment and ensuring safety. In our experiments, we demonstrate on the arcade game PAC-MAN and on a case study involving service robots that the learning efficiency increases as the learning needs orders of magnitude fewer episodes.
+                  ">
+
+        <p class="no-margin">
+          <meta itemprop="datePublished" content="2020-05-01">
+          2020 International Conference on Concurrency Theory (CONCUR)
+        </p>
+        <br>
+      </div>
+    </div>
+
+    <!-- Counterexamples -->
+    <div class="row" itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <div class="col-sm-8">
+        <a target="_blank" href="pdf/ASerban_Counterexamples.pdf" itemprop="url">
+          <span itemprop="name">
+            Counterexample-Guided Strategy Improvement for POMDPs Using RNNs
+          </span>
+        </a>
+        <meta itemprop="sameAs" content="xserban.github.io/papers/pdf/ASerban_Counterexamples.pdf">
+        <p class="no-margin">
+          <span itemprop="author">
+            S. Carr, N. Jansen, R. Wimmer, A.C. Serban, B. Becker, U. Topku
+          </span>
+        </p>
+        <meta itemprop="headline" content="
+                  We study strategy synthesis for partially observable Markov decision processes (POMDPs).
+                  The particular problem is to determine strategies that provably adhere to (probabilistic) temporal logic constraints.
+                  This problem is computationally in- tractable and theoretically hard.
+                  We propose a novel method that combines techniques from machine learning and formal verification.
+                  First, we train a recurrent neural network (RNN) to encode POMDP strategies.
+                  The RNN accounts for memory-based decisions without the need to expand the full belief space of a POMDP.
+                  Secondly, we restrict the RNN-based strategy to represent a finite-memory strategy and implement it on a specific POMDP.
+                  For the resulting finite Markov chain, efficient formal verification techniques provide provable guarantees against temporal logic specifications.
+                  If the specification is not satisfied, counterexamples supply diagnostic infor- mation.
+                  We use this information to improve the strategy by iteratively training the RNN.
+                  Numerical experiments show that the proposed method ele- vates the state of the art in POMDP solving by up to three orders of magnitude in terms of solving times and model sizes.
+                  ">
+
+        <p class="no-margin">
+          <meta itemprop="datePublished" content="2019-03-25">
+          2019 International Joint Conference on Artificial Intelligence (IJCAI)
+        </p>
+        <br>
+      </div>
+    </div>
+
+    <!-- Adversarial Examples A Complete Characterisation of the Phenomenon -->
+    <div class="row" itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <div class="col-sm-8">
+        <a target="_blank" href="https://arxiv.org/abs/1810.01185" itemprop="url">
+          <span itemprop="name">
+            Adversarial Examples - A Complete Characterisation of the Phenomenon
+          </span>
+        </a>
+        <meta itemprop="sameAs" content="xserban.github.io/papers/pdf/ASerban_Adversarial_Examples.pdf">
+        <p class="no-margin">
+          <span itemprop="author">
+            A.C. Serban,
+          </span>
+          <span itemprop="author">
+            E. Poll,
+          </span>
+          <span itemprop="author">
+            J. Visser
+          </span>
+        </p>
+        <meta itemprop="headline" content="
+                We provide a complete characterisation of the phenomenon of adversarial examples - inputs intentionally crafted to fool machine learning models.
+                We aim to cover all the important concerns in this field of study: (1) the conjectures on the existence of adversarial examples, (2) the security, safety and robustness implications, (3) the methods used to generate and (4) protect against adversarial examples and (5) the ability of adversarial examples to transfer between different machine learning models.
+                We provide ample background information in an effort to make this document self-contained.
+                Therefore, this document can be used as survey, tutorial or as a catalog of attacks and defences using adversarial examples.
+                ">
+
+        <p class="no-margin">
+          <meta itemprop="datePublished" content="2018-10-02">
+          arXiv:1810.01185
+        </p>
+
+        <p class="no-margin">
+          A complementary tutorial on adversarial machine learnring can be found <a
+            href="https://github.com/NullConvergence/tutorial_adversarialml" target="_blank">here.</a>
+        </p>
+        <br>
+      </div>
+    </div>
+
+
+    <h5>
+      Software Engineering for Machine Learning:
+    </h5>
+
+    <!-- Arch ML -->
+    <div class="row" itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <div class="col-sm-8">
+        <a target="_blank" href="https://arxiv.org/abs/2105.12427" itemprop="url">
+          <span itemprop="name">
+            An Empirical Study of Software Architecture for Machine Learning
+          </span>
+        </a>
+        <meta itemprop="sameAs" content="https://arxiv.org/abs/2105.12427">
+        <p class="no-margin">
+          <span itemprop="author">
+            A. Serban, J. Visser
+          </span>
+        </p>
+        <meta itemprop="headline" content="
+            Specific developmental and operational characteristics of machine learning (ML) components, as well as their inherent uncertainty, demand robust engineering principles are used to ensure their quality. We aim to determine how software systems can be (re-) architected to enable robust integration of ML components. Towards this goal, we conducted a mixed-methods empirical study consisting of (i) a systematic literature review to identify the challenges and their solutions in software architecture forML, (ii) semi-structured interviews with practitioners to qualitatively complement the initial findings, and (iii) a survey to quantitatively validate the challenges and their solutions. In total, we compiled and validated twenty challenges and solutions for (re-) architecting systems with ML components. Our results indicate, for example, that traditional software architecture challenges (e.g., component coupling) also play an important role when using ML components; along new ML specific challenges (e.g., the need for continuous retraining). Moreover, the results indicate that ML heightened decision drivers, such as privacy, play a marginal role compared to traditional decision drivers, such as scalability or interoperability. Using the survey, we were able to establish a link between architectural solutions and software quality attributes; which enabled us to provide twenty architectural tactics used for satisfying individual quality requirements of systems with ML components. Altogether, the results can be interpreted as an empirical framework that supports the process of (re-) architecting software systems with ML components.
+                        ">
+
+        <p class="no-margin">
+          <meta itemprop="datePublished" content="2020-08-15">
+          arXiv:2105.12422
+        </p>
+        <br>
+      </div>
+    </div>
+
+    <!-- AutoML Practices -->
+    <div class="row" itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <div class="col-sm-8">
+        <a target="_blank" href="https://arxiv.org/pdf/2103.00964.pdf" itemprop="url">
+          <span itemprop="name">
+            AutoML Adoption in ML Software
+          </span>
+        </a>
+        <meta itemprop="sameAs" content="hhttps://arxiv.org/pdf/2103.00964.pdf">
+        <p class="no-margin">
+          <span itemprop="author">
+            K. van der Blom, A. Serban, H. Hoss, J. Visser
+          </span>
+        </p>
+        <meta itemprop="headline" content="
+
+                    ">
+
+        <p class="no-margin">
+          <meta itemprop="datePublished" content="2021-08-15">
+          8th ICML Workshop on Automated Machine Learning
+        </p>
+        <br>
+      </div>
+    </div>
+
+    <!-- Engineering Practices -->
+    <div class="row" itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <div class="col-sm-8">
+        <a target="_blank" href="https://liacs.leidenuniv.nl/~blomkvander/papers/automl_2021.pdf" itemprop="url">
+          <span itemprop="name">
+            Practices for Engineering Trustworthy Machine Learning Applications
+          </span>
+        </a>
+        <meta itemprop="sameAs" content="https://liacs.leidenuniv.nl/~blomkvander/papers/automl_2021.pdf">
+        <p class="no-margin">
+          <span itemprop="author">
+            A. Serban, K. van der Blom, H. Hoss, J. Visser
+          </span>
+        </p>
+        <meta itemprop="headline" content="
+            Following the recent surge in adoption of machine learning (ML), the negative impact that improper use of ML can have on users and society is now also widely recognised.
+            To address this issue, policy makers and other stakeholders, such as the European Commission or NIST, have proposed high-level guidelines aiming to promote trustworthy ML (i.e., lawful, ethical and robust).
+            However, these guidelines do not specify actions to be taken by those involved in building ML systems.
+            In this paper, we argue that guidelines related to the development of trustworthy ML can be translated to operational practices, and should become part of the ML development life cycle.
+            Towards this goal, we ran a multi-vocal literature review, and mined operational practices from white and grey literature.
+            Moreover, we launched a global survey to measure practice adoption and the effects of these practices.
+            In total, we identified 14 new practices, and used them to complement an existing catalogue of ML engineering practices.
+            Initial analysis of the survey results reveals that so far, practice adoption for trustworthy ML is relatively low.
+            In particular, practices related to assuring security of ML components have very low adoption.
+            Other practices enjoy slightly larger adoption, such as providing explanations to users.
+            Our extended practice catalogue can be used by ML development teams to bridge the gap between high-level guidelines and actual development of trustworthy ML systems; it is open for review and contributions.
+                    ">
+
+        <p class="no-margin">
+          <meta itemprop="datePublished" content="2020-08-15">
+          Workshop on AI Engineering WAIN’21@ICSE’21
+        </p>
+        <br>
+      </div>
+    </div>
+
+
+    <!-- Adoption and Effects -->
+    <div class="row" itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <div class="col-sm-8">
+        <a target="_blank" href="https://arxiv.org/pdf/2007.14130.pdf" itemprop="url">
+          <span itemprop="name">
+            Adoption and Effects of Software Engineering Best Practices in Machine Learning
+          </span>
+        </a>
+        <meta itemprop="sameAs" content="https://arxiv.org/pdf/2007.14130.pdf">
+        <p class="no-margin">
+          <span itemprop="author">
+            A. Serban, K. van der Blom, H. Hoss, J. Visser
+          </span>
+        </p>
+        <meta itemprop="headline" content="
+                    The increasing reliance on applications with machine learning (ML) components calls for mature engineering techniques that ensure these are built in a robust and future-proof manner.
+                    We aim to empirically determine the state of the art in how teams develop, deploy and maintain software with ML components. We mined both academic and grey literature and identified 29 engineering best practices for ML applications.
+                    We conducted a survey among 313 practitioners to determine the degree of adoption for these practices and to validate their perceived effects.
+                    Using the survey responses, we quantified practice adoption, differentiated along demographic characteristics, such as geography or team size.
+                    We also tested correlations and investigated linear and non-linear relationships between practices and their perceived effect using various statistical models.
+                    Our findings indicate, for example, that larger teams tend to adopt more practices, and that traditional software engineering practices tend to have lower adoption than ML specific practices.
+                    Also, the statistical models can accurately predict perceived effects such as agility, software quality and traceability, from the degree of adoption for specific sets of practices.
+                    Combining practice adoption rates with practice importance, as revealed by statistical models, we identify practices that are important but have low adoption, as well as practices that are widely adopted but are less important for the effects we studied.
+                    Overall, our survey and the analysis of responses received provide a quantitative basis for assessment and step-wise improvement of practice adoption by ML teams.
+                    ">
+
+        <p class="no-margin">
+          <meta itemprop="datePublished" content="2020-09-01">
+          2020 ACM/IEEE International Symposium on Empirical Software Engineering and Measurement (ESEM)
+        </p>
+        <p class="no-margin" itemprop="learningResourceType">
+          <a target="_blank" href="pdf/ASerban_SEML_pres.pdf" itemprop="url">
+            Venue Presentation
+          </a>
+        </p>
+        <br>
+      </div>
+    </div>
+
+
+    <!-- Towards -->
+    <div class="row" itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <div class="col-sm-8">
+        <a target="_blank" href="pdf/ASerban_Towards.pdf" itemprop="url">
+          <span itemprop="name">
+            Towards Using Probabilistic Models to Design Software Systems with Inherent Uncertainty
+          </span>
+        </a>
+        <meta itemprop="sameAs" content="xserban.github.io/papers/pdf/ASerban_Adversarial_Examples_CSUR.pdf">
+        <p class="no-margin">
+          <span itemprop="author">
+            A. Serban, E. Poll, J. Visser
+          </span>
+        </p>
+        <meta itemprop="headline" content="
+                    The adoption of ML components in software systems raises new engineering challenges.
+                    In particular, the inherent uncertainty regarding functional suitability and the operation environment makes architecture evaluation and trade-off analysis difficult.
+                    We propose a software architecture evaluation method called Modeling Uncerrtainty During Design that explicitly models the uncertainty associated to \ac{ML} components and evaluates how it propagates through a system.
+                    The method supports reasoning over how architectural patterns can mitigate uncertainty and enables comparison of different architectures focused on the interplay between \ac{ML} and classical software components.
+                    While our approach is domain-agnostic and suitable for any system where uncertainty plays a central role, we demonstrate our approach using as example a perception system for autonomous driving.
+                    ">
+
+        <p class="no-margin">
+          <meta itemprop="datePublished" content="2020-05-01">
+          2020 European Conference on Software Architecture (ECSA)
+        </p>
+        <p class="no-margin" itemprop="learningResourceType">
+          <a target="_blank" href="pdf/ASerbanTowardsUsingProbabilisticModels.pdf" itemprop="url">
+            Venue Presentation
+          </a>
+        </p>
+        <br>
+      </div>
+    </div>
+
+    <!-- Designing Safety Critical sysstemss -->
+    <div class="row" itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <div class="col-sm-8">
+        <a target="_blank" href="pdf/ASerban_Inherent_Uncertainty.pdf" itemprop="url">
+          <span itemprop="name">
+            Designing Safety Critical Software Systems to Manage Inherent Uncertainty
+          </span>
+        </a>
+        <meta itemprop="sameAs" content="xserban.github.io/papers/pdf/ASerban_Inherent_Uncertainty.pdf">
+        <p class="no-margin">
+          <span itemprop="author">
+            A.C. Serban
+          </span>
+        </p>
+        <meta itemprop="headline" content="
+                Deploying machine learning algorithms in safety critical systems raises new challenges for system designers.
+                The opaque nature of some algorithms together with the potentially large input space makes reasoning or formally proving safety difficult.
+                In this paper, we argue that the inherent uncertainty that comes from using certain classes of machine learning algorithms can be mitigated through the development of software architecture design patterns.
+                New or adapted patterns will allow faster roll out time for new technologies and decrease the negative impact machine learning components can have on safety critical systems.
+                We outline the important safety challenges that machine learning algorithms raise and define three important directions for the development of new architectural patterns. % TODO: or adaptation?
+                ">
+
+        <p class="no-margin">
+          <meta itemprop="datePublished" content="2019-03-25">
+          2019 IEEE International Conference on Software Architecture (ICSA)
+        </p>
+        <br>
+      </div>
+    </div>
+
+
+    <h5>
+      Autonomous Vehicles:
+    </h5>
+
+    <!-- A security analysis of the ETSI ITS vehicular communications-->
+    <div class="row" itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <div class="col-sm-8">
+        <a target="_blank" href="pdf/ASerban_ETSI_ITS_Security_Analysis.pdf" itemprop="url">
+          <span itemprop="name">
+            A security analysis of the ETSI ITS vehicular communications
+          </span>
+        </a>
+        <meta itemprop="sameAs" content="xserban.github.io/papers/pdf/ASerban_ETSI_ITS_Security_Analysis.pdf">
+
+        <p class="no-margin">
+          <span itemprop="author">
+            A.C. Serban,
+          </span>
+          <span itemprop="author">
+            E. Poll,
+          </span>
+          <span itemprop="author">
+            J. Visser
+          </span>
+        </p>
+
+        <meta itemprop="headline" content="
+              This paper analyses security aspects of the ETSI ITS standard for co-operative transport systems, where cars communicate with each other (V2V) and with the roadside (V2I) to improve traffic safety and make more efficient use of the road system.
+              We focus on the initial information exchange between vehicles and the road side infrastructure responsible for authentication and authorisation, because all the security aspects for these interactions are regulated in the ETSI ITS standards.
+              Other services running in vehicular networks are open to choose application-specific security requirements and implement them using features from the ETSI ITS standard.
+              We note some possibilities for replay attacks that, although they have limited impact, could be prevented using simple techniques, some of which are directly available in the ETSI ITS standard.
+              ">
+
+        <p class="no-margin">
+          <meta itemprop="datePublished" content="2018-09-18">
+          2018 International Conference on Computer Safety, Reliability, and Security (SafeComp)
+        </p>
+
+        <p class="no-margin" itemprop="learningResourceType">
+          <a target="_blank" href="pdf/ASerban_ETSI_ITS_Security_Analysis_pres.pdf" itemprop="url">
+            Venue Presentation
+          </a>
+        </p>
+
+        <br>
+      </div>
+    </div>
+
+
+    <!-- Tactical Safety Reasoning. A Case for Autonomous Vehicles -->
+    <div class="row" itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <div class="col-sm-8">
+        <a target="_blank" href="pdf/ASerban_Tactical_Safety.pdf" itemprop="url">
+          <span itemprop="name">
+            Tactical Safety Reasoning. A Case for Autonomous Vehicles
+          </span>
+        </a>
+
+        <meta itemprop="sameAs" content="xserban.github.io/papers/pdf/ASerban_Tactical_Safety.pdf">
+
+        <p class="no-margin">
+          <span itemprop="author">
+            A.C. Serban,
+          </span>
+          <span itemprop="author">
+            E. Poll,
+          </span>
+          <span itemprop="author">
+            J. Visser
+          </span>
+        </p>
+
+        <meta itemprop="headline" content="
+              Self driving cars have recently attracted academia and industry interest.
+              As planning algorithms become responsible for critical decisions, many questions concerning traffic safety arise.
+              An increased automation level demands proportional impact on safety requirements, currently governed by the ISO 26262 standard.
+              However, ISO 26262 sees safety as a functional property of a system and fails to cover emergent concerns related to autonomous decisions.
+              In order to fill this gap we propose the field of tactical safety, which extends safety analysis to planning and execution of driving maneuvers, response to traffic events or autonomous system failures.
+              It is meant to complement, not to replace functional safety properties of a system and allows the analysis of autonomous agents from a safe behavior point of view.
+              We draw the requirements for tactical safety from an automotive standard which defines functional elements for advanced driving automation systems.
+              ">
+
+        <p class="no-margin">IEEE 87th Vehicular Technology Conference (VTC Spring) </p>
+        <meta itemprop="datePublished" content="2018-06-03">
+
+
+
+        <p class="no-margin" itemprop="learningResourceType">
+          <a target="_blank" href="pdf/ASerban_Tactical_Safety_pres.pdf" itemprop="url">
+            Venue Presentation
+          </a>
+        </p>
+        <!-- <p class="no-margin">
+                          Notes: {{paper.notes}}
+                      </p> -->
+
+        <br>
+      </div>
+    </div>
+    <!-- A standard driven software architecture -->
+
+    <!-- A standard driven software architecture -->
+    <div class="row" itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <div class="col-sm-8">
+        <a target="_blank" itemprop="url" href="pdf/ASerban_Standard_Arch_journal.pdf">
+          <span itemprop="name">
+            A standard driven software architecture for fully autonomous vehicles
+          </span>
+        </a>
+
+        <meta itemprop="sameAs" content="xserban.github.io/papers/pdf/ASerban_Standard_Arch.pdf">
+
+        <p class="no-margin">
+          <span itemprop="author">
+            A.C. Serban,
+          </span>
+          <span itemprop="author">
+            E. Poll,
+          </span>
+          <span itemprop="author">
+            J. Visser
+          </span>
+        </p>
+        <p class="no-margin"> Journal of Automotive Software Engineering (JASE)</p>
+        <meta itemprop="headline" content="
+              The goal of this paper is to design a functional software architecture for fully autonomous vehicles.
+              Existing literature takes a descriptive approach and presents past experiments with autonomous driving or implementations specific to limited domains (e.g. winning a competition).
+              The architectural solutions are often an after-math of building or evolving an autonomous vehicle and not the result of a clear software development life-cycle.
+              A major issue of this approach is that requirements can not be traced with respect to functional components and several components group most functionality.
+              Therefore, it is often difficult to adopt the proposals.
+              In this paper we take a prescriptive approach starting with requirements from an automotive standard. We use a NIST reference architecture for real-time, intelligent, systems and well established architectural patterns to support the design principles.
+              We further examine the results with respect to the automotive software development life cycle and compliance with automotive safety standards.
+              Lastly, we compare our work with other proposals.
+              ">
+
+        <meta itemprop="datePublished" content="2018-04-30">
+
+        <!-- <p class="no-margin">
+                  Notes: {{paper.notes}}
+              </p> -->
+        <br>
+      </div>
+    </div>
+    <!-- A standard driven software architecture -->
+    <!-- A standard driven software architecture -->
+    <div class="row" itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <div class="col-sm-8">
+        <a target="_blank" itemprop="url" href="pdf/ASerban_Standard_Arch.pdf">
+          <span itemprop="name">
+            A standard driven software architecture for fully autonomous vehicles
+          </span>
+        </a>
+
+        <meta itemprop="sameAs" content="xserban.github.io/papers/pdf/ASerban_Standard_Arch.pdf">
+
+        <p class="no-margin">
+          <span itemprop="author">
+            A.C. Serban,
+          </span>
+          <span itemprop="author">
+            E. Poll,
+          </span>
+          <span itemprop="author">
+            J. Visser
+          </span>
+        </p>
+        <p class="no-margin"> 2018 IEEE International Conference on Software Architecture (ICSA-C)</p>
+        <meta itemprop="headline" content="
+              The goal of this paper is to design a functional software architecture for fully autonomous vehicles.
+              Existing literature takes a descriptive approach and presents past experiments with autonomous driving or implementations specific to limited domains (e.g. winning a competition).
+              The architectural solutions are often an after-math of building or evolving an autonomous vehicle and not the result of a clear software development life-cycle.
+              A major issue of this approach is that requirements can not be traced with respect to functional components and several components group most functionality.
+              Therefore, it is often difficult to adopt the proposals.
+              In this paper we take a prescriptive approach starting with requirements from an automotive standard. We use a NIST reference architecture for real-time, intelligent, systems and well established architectural patterns to support the design principles.
+              We further examine the results with respect to the automotive software development life cycle and compliance with automotive safety standards.
+              Lastly, we compare our work with other proposals.
+              ">
+
+        <meta itemprop="datePublished" content="2018-04-30">
+
+        <p class="no-margin" itemprop="learningResourceType">
+          <a target="_blank" href="pdf/ASerban_Standard_Arch_pres.pdf" itemprop="url">
+            Venue Presentation
+          </a>
+        </p>
+        <br>
+      </div>
+    </div>
+    <!-- A standard driven software architecture -->
+    <h5>
+      Others:
+    </h5>
+
+    <!-- GraphRepo -->
+    <div class="row" itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <div class="col-sm-8">
+        <a target="_blank" href="https://arxiv.org/pdf/2008.04884.pdf" itemprop="url">
+          <span itemprop="name">
+            GraphRepo: Fast Exploration in Software Repository Mining
+          </span>
+        </a>
+        <meta itemprop="sameAs" content="https://arxiv.org/pdf/2008.04884.pdf">
+        <p class="no-margin">
+          <span itemprop="author">
+            A. Serban, M. Bruntink, J. Visser
+          </span>
+        </p>
+        <meta itemprop="headline" content="
+                Mining and storage of data from software repositories is typicallydone on a per-project basis, where each project uses a unique combination of data schema,
+                extraction tools, and (intermediate) storage infrastructure. We introduce GraphRepo, a tool that enables a unified approach to extract data from Git repositories,
+                store it,and share it across repository mining projects. GraphRepo usesNeo4j, an ACID-compliant graph database management system, and allows modular plug-in of
+                components for repository extrac-tion (drillers), analysis (miners), and export (mappers). The graph enables a natural way to query the data by removing the need
+                for data normalisation. GraphRepo is built in Python and offers multiple ways to interface with the rich Python ecosystem and withbig data solutions.
+                The schema of the graph database is genericand extensible. Using GraphRepo for software repository miningo ffers several advantages versus creating project-specific
+                infrastructure: (i) high performance for short-iteration exploration andscalability to large data sets (ii) easy distribution of extracted data(e.g., for replication)
+                or sharing of extracted data among projects, and (iii) extensibility and interoperability. A set of benchmarks onfour open source projects demonstrate that GraphRepo
+                allows veryfast querying of repository data, once extracted and indexed. Moreinformation can be found in the project’s documentation (availableat https://tinyurl.com/grepodoc)
+                and in the project’s repository(available at https://tinyurl.com/grrepo). A video demonstration isalso available online (https://tinyurl.com/grrepov).
+                ">
+
+        <p class="no-margin">
+          <meta itemprop="datePublished" content="2020-08-15">
+          arXiv:2008.04884
+        </p>
+        <br>
+      </div>
+    </div>
+
+    <!-- Coen malware -->
+    <div class="row" itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <div class="col-sm-8">
+        <a target="_blank" href="pdf/MalwareStateAttribution.pdf" itemprop="url">
+          <span itemprop="name">
+            Supervised Learning for State-Sponsored Malware Attribution
+          </span>
+        </a>
+        <meta itemprop="sameAs" content="xserban.github.io/papers/pdf/MalwareStateAttribution.pdf">
+        <p class="no-margin">
+          <span itemprop="author">
+            C. Boot, A.C. Serban, E. Poll
+          </span>
+        </p>
+        <meta itemprop="headline"
+          content="
+                State-sponsored hackers have access to many (financial) resources, which allows them to focus persistently on advanced targets.
+                This leads to frequent attacks with increased sophistication.
+                Detecting and protecting against such threats is not sufficient; identifying the authors and pursuing legal or political ways to stop them is an intrinsic part of fighting the threats.
+                However, the increased frequency of distinct cyber- attacks demands automatic ways to detect and attribute a sample to its authors.
+                In this paper we investigate to what extent supervised learning techniques are suitable for state-sponsored malware attribution.
+                In particular, we build and publish a dataset with over 3,500 malware samples belonging to 6 countries and 12 APT groups.
+                With this set, we extract dynamic behavior data by running the samples in sandbox environments and test two types of classifiers, namely Random Forest Classifiers and a Deep Neural Networks.
+                We show that Random Forest Classifiers are better suited for the task, while also being more interpretable.
+                However, the data extracted from the classifier does not provide irrefutable evidence, needed to accuse a state actor of cyber-attacks.
+                By publishing the dataset and the experimental code we hope to encourage reproducible research on state-sponsored malware attribution and the development of common benchmarks.">
+
+        <p class="no-margin">
+          <meta itemprop="datePublished" content="2019-03-25">
+          <!-- preprint -->
+        </p>
+        <br>
+      </div>
+    </div>
+
+    <!-- MSc. -->
+    <div class="row" itemscope itemtype="http://schema.org/ScholarlyArticle">
+      <div class="col-sm-8">
+        <a target="_blank" href="https://essay.utwente.nl/73274/" itemprop="url">
+          <span itemprop="name">
+            Context based personalized ranking in academic search
+          </span>
+        </a>
+        <meta itemprop="sameAs" content="xserban.github.io/papers/pdf/MalwareStateAttribution.pdf">
+        <p class="no-margin">
+          <span itemprop="author">
+            A.C. Serban
+          </span>
+        </p>
+        <meta itemprop="headline" content="
+
+
+        <p class=" no-margin">
+        <meta itemprop="datePublished" content="2019-03-25">
+        <!-- preprint -->
+        </p>
+        <br>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

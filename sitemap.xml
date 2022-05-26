@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://xserban.github.io/</loc>
+  <lastmod>2020-08-28T22:41:08+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://xserban.github.io/papers/index.html</loc>
+  <lastmod>2020-08-28T22:36:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xserban.github.io/talks/index.html</loc>
+  <lastmod>2020-08-28T22:36:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xserban.github.io/code/</loc>
+  <lastmod>2020-08-28T22:36:57+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xserban.github.io/proposals/</loc>
+  <lastmod>2020-08-28T22:41:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://xserban.github.io/papers/pdf/ASerban_Towards.pdf</loc>
+  <lastmod>2020-08-10T13:24:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xserban.github.io/papers/pdf/ASerban_Adversarial_Examples_CSUR.pdf</loc>
+  <lastmod>2020-08-10T13:24:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xserban.github.io/papers/pdf/ASerban_L2L.pdf</loc>
+  <lastmod>2020-08-10T13:24:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xserban.github.io/papers/pdf/ASerban_Shield.pdf</loc>
+  <lastmod>2020-08-10T13:24:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xserban.github.io/papers/pdf/ASerban_Counterexamples.pdf</loc>
+  <lastmod>2020-08-10T13:24:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xserban.github.io/papers/pdf/MalwareStateAttribution.pdf</loc>
+  <lastmod>2020-08-10T13:24:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xserban.github.io/papers/pdf/ASerban_Inherent_Uncertainty.pdf</loc>
+  <lastmod>2020-08-10T13:24:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xserban.github.io/papers/pdf/ASerban_Adversarial_Examples.pdf</loc>
+  <lastmod>2020-08-10T13:24:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xserban.github.io/papers/pdf/ASerban_ETSI_ITS_Security_Analysis.pdf</loc>
+  <lastmod>2020-08-10T13:24:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xserban.github.io/papers/pdf/ASerban_ETSI_ITS_Security_Analysis_pres.pdf</loc>
+  <lastmod>2020-08-10T13:24:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xserban.github.io/papers/pdf/ASerban_Tactical_Safety.pdf</loc>
+  <lastmod>2020-08-10T13:24:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xserban.github.io/papers/pdf/ASerban_Tactical_Safety_pres.pdf</loc>
+  <lastmod>2020-08-10T13:24:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xserban.github.io/papers/pdf/ASerban_Standard_Arch_journal.pdf</loc>
+  <lastmod>2020-08-10T13:24:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xserban.github.io/papers/pdf/ASerban_Standard_Arch.pdf</loc>
+  <lastmod>2020-08-10T13:24:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xserban.github.io/papers/pdf/ASerban_Standard_Arch_pres.pdf</loc>
+  <lastmod>2020-08-10T13:24:08+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xserban.github.io/talks/pdf/AS_GraphRepo.pdf</loc>
+  <lastmod>2020-08-10T13:24:09+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xserban.github.io/talks/pdf/AS_SE4ML.pdf</loc>
+  <lastmod>2020-08-10T13:24:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xserban.github.io/talks/pdf/AS_Security.pdf</loc>
+  <lastmod>2020-08-10T13:24:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xserban.github.io/talks/pdf/AS_Safety.pdf</loc>
+  <lastmod>2020-08-10T13:24:10+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xserban.github.io/theses/wietze.pdf</loc>
+  <lastmod>2020-08-28T22:36:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://xserban.github.io/theses/b_coen_boot.pdf</loc>
+  <lastmod>2020-08-28T22:36:57+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
+
+</urlset>

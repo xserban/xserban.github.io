@@ -1,0 +1,30 @@
+.padding-10 {
+    padding: 10px;
+}
+
+.padding-15 {
+    padding: 15px;
+}
+
+.profile-5 {
+    width: 150px;
+    transform: rotate(2deg);
+    padding-top: 10px;
+}
+
+.profile-6 {
+    max-width: 200px;
+    padding-top: 10px;
+}
+
+.text-success {
+    color: #00C851;
+}
+
+.text-primary {
+    color: #337ab7;
+}
+
+.text-info {
+    color: #31708f;
+}
